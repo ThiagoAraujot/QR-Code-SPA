@@ -147,7 +147,7 @@ export const QRGenerator = ({ inputValue, onClear, triggerGeneration }: QRGenera
 
   return (
     <div className={`qr-container mt-8 ${isVisible ? 'show' : ''}`}>
-      <div className="glass-card p-8 max-w-sm mx-auto animate-slide-up">
+      <div className="glass-card p-8 max-w-sm mx-auto animate-slide-up rounded">
         <div className="flex justify-between items-start mb-6">
           <h2 className="text-xl font-semibold text-foreground">Generated QR Code</h2>
           <Button
