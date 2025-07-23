@@ -75,7 +75,7 @@ const Index = () => {
 
           {/* Features */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 animate-fade-in">
-            <div className="glass-card p-6 text-center">
+            <div className="glass-card p-6 text-center rounded">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -85,7 +85,7 @@ const Index = () => {
               <p className="text-sm text-muted-foreground">Generate QR codes in milliseconds with our optimized engine</p>
             </div>
 
-            <div className="glass-card p-6 text-center">
+            <div className="glass-card p-6 text-center rounded">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
@@ -95,7 +95,7 @@ const Index = () => {
               <p className="text-sm text-muted-foreground">Download high-quality PNG images ready for print or digital use</p>
             </div>
 
-            <div className="glass-card p-6 text-center">
+            <div className="glass-card p-6 text-center rounded">
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
